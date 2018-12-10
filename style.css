@@ -45,9 +45,21 @@ body {
   padding-top: 20px;
 }
 
-#message {
+header {
   text-align: center;
+}
+
+#message-image {
+  display: none;
+  height: 2.5em;
+  width: 2.5em;
+  vertical-align: middle;
+}
+
+#message {
   font-family: Helvetica, sans-serif;
+  display: inline;
+  vertical-align: middle;
 }
 
 #box0,
